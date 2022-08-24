@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(64, 3, 36);
+}
+
+button{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(80, 10, 20);
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    position: relative;
+    top: 500px;
+    left:800px;
+    
+}
+
+h1{
+    color:white;
+    text-align: center;
+    font-size: 70px;
+    position: relative;
+    top: 200px;
+
+}
+
+button1{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 30px;
+    cursor: pointer;
+    color: rgb(80, 10, 20);
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    position: static;
+
+}
+
+textbox{
+    text-align: center;
+}
+
+input{
+    width: 1000px;
+    height: 55px;
+    border-radius: 15px;
+    position: static;
+   
+}
+.msgs {
+    display: flex;
+    flex-direction: column;
+    margin: 110px 0;
+    
+}
+.msg {
+    display: flex;
+    padding: 20px 0 20px 30px;
+    margin: 20px;
+    border-radius: 3000px;
+    align-items: center;
+    box-shadow: 0 0 10px rgb(164, 164, 164);
+  }
+.sent {
+  background-color: #395dff;
+  color: white;
+  border-top-right-radius: 10px;
+  flex-direction: row-reverse;
+  padding: 10px 20px 10px 20px;
+  text-align: end;
+  float: right;
+  
+}
+.sent, .p1{
+    position: relative;
+}
+.received {
+    border: 1px solid lightgray;
+    background-color: #1a7907;
+    border-top-left-radius: 1000px;
+    float: left;
+    padding: 10px 20px 10px 20px;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 2px 5px;
+  }
+
+p{
+    font-size: 20px;
+    color:white;
+}
